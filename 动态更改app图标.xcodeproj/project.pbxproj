@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B87DA3FA1ED2BA1000FE3788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DA3F91ED2BA1000FE3788 /* main.m */; };
+		B87DA3FD1ED2BA1000FE3788 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DA3FC1ED2BA1000FE3788 /* AppDelegate.m */; };
+		B87DA4031ED2BA1000FE3788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87DA4011ED2BA1000FE3788 /* Main.storyboard */; };
+		B87DA4051ED2BA1100FE3788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B87DA4041ED2BA1000FE3788 /* Assets.xcassets */; };
+		B87DA4081ED2BA1100FE3788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87DA4061ED2BA1100FE3788 /* LaunchScreen.storyboard */; };
+		B87DA4111ED2BD7B00FE3788 /* TKChangeIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DA4101ED2BD7B00FE3788 /* TKChangeIcon.m */; };
+		B87DA4371ED2D42D00FE3788 /* TKChangeIconDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DA4361ED2D42D00FE3788 /* TKChangeIconDetail.m */; };
+		B87DA43A1ED2D76800FE3788 /* TKChangIconPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DA4391ED2D76800FE3788 /* TKChangIconPresent.m */; };
+		B87DA4471ED2E2BA00FE3788 /* cloud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87DA4411ED2E2BA00FE3788 /* cloud@2x.png */; };
+		B87DA4481ED2E2BA00FE3788 /* cloud@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87DA4421ED2E2BA00FE3788 /* cloud@3x.png */; };
+		B87DA4491ED2E2BA00FE3788 /* rain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87DA4431ED2E2BA00FE3788 /* rain@2x.png */; };
+		B87DA44A1ED2E2BA00FE3788 /* rain@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87DA4441ED2E2BA00FE3788 /* rain@3x.png */; };
+		B87DA44B1ED2E2BA00FE3788 /* snow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87DA4451ED2E2BA00FE3788 /* snow@2x.png */; };
+		B87DA44C1ED2E2BA00FE3788 /* snow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87DA4461ED2E2BA00FE3788 /* snow@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B87DA3F51ED2BA1000FE3788 /* 动态更改app图标.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "动态更改app图标.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87DA3F91ED2BA1000FE3788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B87DA3FB1ED2BA1000FE3788 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B87DA3FC1ED2BA1000FE3788 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B87DA4021ED2BA1000FE3788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B87DA4041ED2BA1000FE3788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B87DA4071ED2BA1100FE3788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B87DA4091ED2BA1100FE3788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B87DA40F1ED2BD7B00FE3788 /* TKChangeIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKChangeIcon.h; sourceTree = "<group>"; };
+		B87DA4101ED2BD7B00FE3788 /* TKChangeIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKChangeIcon.m; sourceTree = "<group>"; };
+		B87DA4351ED2D42D00FE3788 /* TKChangeIconDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKChangeIconDetail.h; sourceTree = "<group>"; };
+		B87DA4361ED2D42D00FE3788 /* TKChangeIconDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKChangeIconDetail.m; sourceTree = "<group>"; };
+		B87DA4381ED2D76800FE3788 /* TKChangIconPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKChangIconPresent.h; sourceTree = "<group>"; };
+		B87DA4391ED2D76800FE3788 /* TKChangIconPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKChangIconPresent.m; sourceTree = "<group>"; };
+		B87DA4411ED2E2BA00FE3788 /* cloud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud@2x.png"; sourceTree = "<group>"; };
+		B87DA4421ED2E2BA00FE3788 /* cloud@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud@3x.png"; sourceTree = "<group>"; };
+		B87DA4431ED2E2BA00FE3788 /* rain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rain@2x.png"; sourceTree = "<group>"; };
+		B87DA4441ED2E2BA00FE3788 /* rain@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rain@3x.png"; sourceTree = "<group>"; };
+		B87DA4451ED2E2BA00FE3788 /* snow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow@2x.png"; sourceTree = "<group>"; };
+		B87DA4461ED2E2BA00FE3788 /* snow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow@3x.png"; sourceTree = "<group>"; };
+		B87DA4501ED3CCD100FE3788 /* UIViewController+changeIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+changeIcon.h"; sourceTree = "<group>"; };
+		B87DA4511ED3CCD100FE3788 /* UIViewController+changeIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+changeIcon.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B87DA3F21ED2BA1000FE3788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B87DA3EC1ED2BA1000FE3788 = {
+			isa = PBXGroup;
+			children = (
+				B87DA3F71ED2BA1000FE3788 /* 动态更改app图标 */,
+				B87DA3F61ED2BA1000FE3788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B87DA3F61ED2BA1000FE3788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B87DA3F51ED2BA1000FE3788 /* 动态更改app图标.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B87DA3F71ED2BA1000FE3788 /* 动态更改app图标 */ = {
+			isa = PBXGroup;
+			children = (
+				B87DA4281ED2CAD400FE3788 /* Icon */,
+				B87DA3FB1ED2BA1000FE3788 /* AppDelegate.h */,
+				B87DA3FC1ED2BA1000FE3788 /* AppDelegate.m */,
+				B87DA40F1ED2BD7B00FE3788 /* TKChangeIcon.h */,
+				B87DA4101ED2BD7B00FE3788 /* TKChangeIcon.m */,
+				B87DA4351ED2D42D00FE3788 /* TKChangeIconDetail.h */,
+				B87DA4361ED2D42D00FE3788 /* TKChangeIconDetail.m */,
+				B87DA4381ED2D76800FE3788 /* TKChangIconPresent.h */,
+				B87DA4391ED2D76800FE3788 /* TKChangIconPresent.m */,
+				B87DA4501ED3CCD100FE3788 /* UIViewController+changeIcon.h */,
+				B87DA4511ED3CCD100FE3788 /* UIViewController+changeIcon.m */,
+				B87DA4011ED2BA1000FE3788 /* Main.storyboard */,
+				B87DA4041ED2BA1000FE3788 /* Assets.xcassets */,
+				B87DA4061ED2BA1100FE3788 /* LaunchScreen.storyboard */,
+				B87DA4091ED2BA1100FE3788 /* Info.plist */,
+				B87DA3F81ED2BA1000FE3788 /* Supporting Files */,
+			);
+			path = "动态更改app图标";
+			sourceTree = "<group>";
+		};
+		B87DA3F81ED2BA1000FE3788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B87DA3F91ED2BA1000FE3788 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B87DA4281ED2CAD400FE3788 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				B87DA4411ED2E2BA00FE3788 /* cloud@2x.png */,
+				B87DA4421ED2E2BA00FE3788 /* cloud@3x.png */,
+				B87DA4431ED2E2BA00FE3788 /* rain@2x.png */,
+				B87DA4441ED2E2BA00FE3788 /* rain@3x.png */,
+				B87DA4451ED2E2BA00FE3788 /* snow@2x.png */,
+				B87DA4461ED2E2BA00FE3788 /* snow@3x.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B87DA3F41ED2BA1000FE3788 /* 动态更改app图标 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B87DA40C1ED2BA1100FE3788 /* Build configuration list for PBXNativeTarget "动态更改app图标" */;
+			buildPhases = (
+				B87DA3F11ED2BA1000FE3788 /* Sources */,
+				B87DA3F21ED2BA1000FE3788 /* Frameworks */,
+				B87DA3F31ED2BA1000FE3788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "动态更改app图标";
+			productName = "动态更改app图标";
+			productReference = B87DA3F51ED2BA1000FE3788 /* 动态更改app图标.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B87DA3ED1ED2BA1000FE3788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hj;
+				TargetAttributes = {
+					B87DA3F41ED2BA1000FE3788 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ATQLL5U5HK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B87DA3F01ED2BA1000FE3788 /* Build configuration list for PBXProject "动态更改app图标" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B87DA3EC1ED2BA1000FE3788;
+			productRefGroup = B87DA3F61ED2BA1000FE3788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B87DA3F41ED2BA1000FE3788 /* 动态更改app图标 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B87DA3F31ED2BA1000FE3788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87DA4471ED2E2BA00FE3788 /* cloud@2x.png in Resources */,
+				B87DA4081ED2BA1100FE3788 /* LaunchScreen.storyboard in Resources */,
+				B87DA44A1ED2E2BA00FE3788 /* rain@3x.png in Resources */,
+				B87DA44C1ED2E2BA00FE3788 /* snow@3x.png in Resources */,
+				B87DA4491ED2E2BA00FE3788 /* rain@2x.png in Resources */,
+				B87DA4051ED2BA1100FE3788 /* Assets.xcassets in Resources */,
+				B87DA4031ED2BA1000FE3788 /* Main.storyboard in Resources */,
+				B87DA4481ED2E2BA00FE3788 /* cloud@3x.png in Resources */,
+				B87DA44B1ED2E2BA00FE3788 /* snow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B87DA3F11ED2BA1000FE3788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87DA4371ED2D42D00FE3788 /* TKChangeIconDetail.m in Sources */,
+				B87DA3FD1ED2BA1000FE3788 /* AppDelegate.m in Sources */,
+				B87DA3FA1ED2BA1000FE3788 /* main.m in Sources */,
+				B87DA4111ED2BD7B00FE3788 /* TKChangeIcon.m in Sources */,
+				B87DA43A1ED2D76800FE3788 /* TKChangIconPresent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B87DA4011ED2BA1000FE3788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B87DA4021ED2BA1000FE3788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B87DA4061ED2BA1100FE3788 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B87DA4071ED2BA1100FE3788 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B87DA40A1ED2BA1100FE3788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B87DA40B1ED2BA1100FE3788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B87DA40D1ED2BA1100FE3788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATQLL5U5HK;
+				INFOPLIST_FILE = "动态更改app图标/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hj.----app--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B87DA40E1ED2BA1100FE3788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATQLL5U5HK;
+				INFOPLIST_FILE = "动态更改app图标/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hj.----app--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B87DA3F01ED2BA1000FE3788 /* Build configuration list for PBXProject "动态更改app图标" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B87DA40A1ED2BA1100FE3788 /* Debug */,
+				B87DA40B1ED2BA1100FE3788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B87DA40C1ED2BA1100FE3788 /* Build configuration list for PBXNativeTarget "动态更改app图标" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B87DA40D1ED2BA1100FE3788 /* Debug */,
+				B87DA40E1ED2BA1100FE3788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B87DA3ED1ED2BA1000FE3788 /* Project object */;
+}
